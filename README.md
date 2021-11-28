@@ -17,4 +17,4 @@ Notes:
 * This is NOT the simplest Spring Batch example, as the output item writer does its work on a database in memory.
 * The configuration is set into a Java class. In following examples it will be stored more properly into a xml file.
 
-### Etc.
+### 2. Etc.
