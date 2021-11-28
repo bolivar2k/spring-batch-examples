@@ -9,6 +9,10 @@ Some Spring Batch examples trying to partitionate functionalities.
 
 * [Spring IO - batch-processing] https://spring.io/guides/gs/batch-processing/
 
+Take a look to:
+
+* [Adictos al Trabajo - Introducción a Spring Batch] https://www.adictosaltrabajo.com/2013/07/17/introduccion-spring-batch/
+
 #### Guides
 This Java project is an example of a simple Spring Batch project.
 
