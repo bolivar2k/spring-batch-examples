@@ -4,7 +4,7 @@ Some Spring Batch examples trying to partitionate functionalities.
 
 ## Projects
 
-### Simple Spring Batch
+### 1. Simple Spring Batch
 #### Based on:
 
 * [Spring IO - https://spring.io/guides/gs/batch-processing/] https://spring.io/guides/gs/batch-processing/
