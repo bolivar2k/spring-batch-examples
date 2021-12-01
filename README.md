@@ -1,6 +1,10 @@
 # Spring Batch examples
 
 Some Spring Batch examples trying to partitionate functionalities.
+Compilation of the most useful links:
+
+* [The best Spring Batch tutorial found so far] https://github.com/maldiny/Spring-Batch-en-Castellano
+* [Item readers and writers] https://docs.spring.io/spring-batch/docs/current/reference/html/appendix.html
 
 ## Projects
 
@@ -8,11 +12,6 @@ Some Spring Batch examples trying to partitionate functionalities.
 #### Based on:
 
 * [Spring IO - batch-processing] https://spring.io/guides/gs/batch-processing/
-
-Take a look to:
-
-* [Adictos al Trabajo - Introducción a Spring Batch] https://www.adictosaltrabajo.com/2013/07/17/introduccion-spring-batch/
-* [The best Spring Batch tutorial found so far] https://github.com/maldiny/Spring-Batch-en-Castellano
 
 #### Guides
 This Java project is an example of a simple Spring Batch project.
