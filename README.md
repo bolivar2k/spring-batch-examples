@@ -12,6 +12,7 @@ Some Spring Batch examples trying to partitionate functionalities.
 Take a look to:
 
 * [Adictos al Trabajo - Introducción a Spring Batch] https://www.adictosaltrabajo.com/2013/07/17/introduccion-spring-batch/
+* [The best Spring Batch tutorial found so far] https://github.com/maldiny/Spring-Batch-en-Castellano
 
 #### Guides
 This Java project is an example of a simple Spring Batch project.
