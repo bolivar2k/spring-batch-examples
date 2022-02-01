@@ -22,10 +22,11 @@ Notes:
 
 ### 2. Batch CSV to XML
 #### Based on:
-* [Javacodegeeks - batch step example] https://examples.javacodegeeks.com/enterprise-java/spring/batch/spring-batch-step-step-example/
+* [Javacodegeeks - Batch step example] https://examples.javacodegeeks.com/enterprise-java/spring/batch/spring-batch-step-step-example/
+* [Tutorialspoint.com - Spring Batch CSV to XML] https://www.tutorialspoint.com/spring_batch/spring_batch_csv_to_xml.htm
 
 #### Guides
 This example shows a simple csv to xml Spring batch app.
 
 Notes:
-* The examples include some DB stuff and I don't understand that part, so I removed everything related to databases.
+* Both examples include some DB stuff and I don't understand why, so I removed everything related to databases.
