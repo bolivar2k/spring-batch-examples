@@ -10,7 +10,6 @@ Compilation of the most useful links:
 
 ### 1. Simple Spring Batch
 #### Based on:
-
 * [Spring IO - batch-processing] https://spring.io/guides/gs/batch-processing/
 
 #### Guides
@@ -21,4 +20,12 @@ Notes:
 * This is NOT the simplest Spring Batch example, as the output item writer does its work on a database in memory.
 * The configuration is set into a Java class. In following examples it will be stored more properly into a xml file.
 
-### 2. Etc.
+### 2. Batch CSV to XML
+#### Based on:
+* [Javacodegeeks - batch step example] https://examples.javacodegeeks.com/enterprise-java/spring/batch/spring-batch-step-step-example/
+
+#### Guides
+This example shows a simple csv to xml Spring batch app.
+
+Notes:
+* The examples include some DB stuff and I don't understand that part, so I removed everything related to databases.
