@@ -3,8 +3,7 @@ package com.bolivar2k.batch;
 import org.springframework.batch.core.Job; 
 import org.springframework.batch.core.JobExecution; 
 import org.springframework.batch.core.JobParameters; 
-import org.springframework.batch.core.launch.JobLauncher; 
-import org.springframework.context.ApplicationContext; 
+import org.springframework.batch.core.launch.JobLauncher;  
 import org.springframework.context.support.ClassPathXmlApplicationContext;  
 
 public class PruebacsvtoxmlApplication { 
@@ -13,11 +12,9 @@ public class PruebacsvtoxmlApplication {
      
       String[] springConfig = { "classpath:spring/batch/jobs/jobConfig.xml" };  
       
-      try {
-      
-	      // Creating the application context object        
-	      ApplicationContext context = new ClassPathXmlApplicationContext(springConfig);  
-	      
+      		// Creating the application context object
+      try (ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(springConfig)) {
+		      
 	      // Creating the job launcher 
 	      JobLauncher jobLauncher = (JobLauncher) context.getBean("jobLauncher"); 
 	   
