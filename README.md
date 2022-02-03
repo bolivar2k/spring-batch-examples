@@ -30,3 +30,14 @@ This example shows a simple csv to xml Spring batch app.
 
 Notes:
 * Both examples include some DB stuff and I don't understand why, so I removed everything related to databases.
+
+### 3. Batch CSVs to XML
+#### Based on:
+* [Javacodegeeks - Batch step example] https://examples.javacodegeeks.com/enterprise-java/spring/batch/spring-batch-step-step-example/
+* [Tutorialspoint.com - Spring Batch CSV to XML] https://www.tutorialspoint.com/spring_batch/spring_batch_csv_to_xml.htm
+
+#### Guides
+Iteration of #2 with multiple source files instead of an only one.
+
+Notes:
+* Modification adding the 'multiResourceItemReader' bean and modifying the main tasklet in the step.
