@@ -11,7 +11,6 @@
          
    <import resource = "classpath:spring/batch/config/context.xml" />  
    
-   <bean id = "report" class = "Report" scope = "prototype" /> 
    <bean id = "itemProcessor" class = "com.bolivar2k.batch.CustomItemProcessor" />  
    
    <batch:job id = "csvToXmlJob"> 
